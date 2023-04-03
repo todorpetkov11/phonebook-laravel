@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('number');
             $table->string('image')->nullable();
+            $table->string('group')->nullable();
             $table->string('country')->nullable();
             $table->string('city')->nullable();
             $table->string('zip')->nullable();

@@ -13,6 +13,7 @@ class Contact extends Model
         'name',
         'number',
         'image',
+        'group',
         'country',
         'city',
         'address',
